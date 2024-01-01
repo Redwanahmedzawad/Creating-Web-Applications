@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="Description" content="Job Application Website"/>
+    <meta name="Keyword" content = "HTML,CSS"/>
+    <meta name="Author" content="MD REDWAN AHMED ZAWAD"/>
+    <meta name="viewport" content="width=device-width, initial scale=1.0"/>
+    <link rel="stylesheet" href="styles/style.css"/>
+    <title> ZAWAD IT</title>
+</head>
+<body>
+    <header >
+        <img id="logo"src="images/zit.jpeg" alt="zitwh.jpeg" title="logo"/>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a> | </li>
+                <li><a href="jobs.html">Careers</a> |</li>
+                <li><a href="apply.html">Apply</a> |</li>
+                <li><a href="about.html">About Us</a> |</li>
+                <li><a href="enhancements.html">Enhancements</a> |</li>
+                <li><a href="enhancements2.html">Enhancements2</a> |</li>
+                <li><a href="mailto:103501849@student.swin.edu.au" target="_blank">Get in touch</a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>
+            The following enhancements have been made in this project
+        </h1>
+        <ul>
+            <li>Responsive Design </li>
+        </ul>
+        <article>
+            <p>A viewport has been added in all the webpages. Viewport 
+                is the visible area of a web page to the user. It varies
+                across devices such as mobile phone, tablets etc. Viewport
+                allows web designers to scale the web page to fit the screen.
+            </p>
+            <h3>Implementation</h3>
+            <ul>
+                <li>Viewport is implemented with the meta tag </li>
+                <li>The width of the page follows the screen-width because of the
+                    width=device-width attribute.
+                </li>
+                <li> The initial zoom level is set by the initial-scale=1.0</li>
+            </ul>
+            <cite>
+                https://www.w3schools.com/css/css_rwd_viewport.asp 
+            </cite>
+        </article>
+    </main>
+    <footer>
+        <h4>Useful links</h4>
+        <ul class="fter">
+            
+            <a href="index.html">Home</a> | 
+            <a href="jobs.html">Careers</a> |
+            <a href="apply.html">Apply</a> |
+            <a href="about.html">About Us</a> |
+            <a href="enhancements.html">Enhancements</a> |
+            <a href="mailto:103501849@student.swin.edu.au" target="_blank">Get in touch</a>
+        </ul>
+        <span><small>&copy; Copyright{{2023}}, Zawad IT. All rights reserved</small>
+            </span>
+        </footer>
+</body>
+
+</html>

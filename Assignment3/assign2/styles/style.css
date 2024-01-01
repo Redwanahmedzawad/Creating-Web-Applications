@@ -1,0 +1,151 @@
+/*
+    Author: Md Redwan Ahmed Zawad
+    Purpose: Creating an website for an It company for
+            hiring employees;
+    
+
+
+*/
+/*maing element of all sites*/
+main{
+   background-color: #fffdf0;;
+    margin:auto;
+    width:50%;
+    padding:5%;
+    font-family: sans-serif;
+    color:#2E475D;
+    padding-top: 0px;
+    
+   
+    
+}
+#indexbody
+{
+    background-image: url("images/baczit.jpeg");
+}
+/*body element of all pages*/
+body{
+    background-color:aliceblue;
+    padding-top:0%;
+    border-top: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right:0px;
+
+    
+}
+/*logo at the top*/
+#logo{
+    float: left;
+}
+/*paragraph in the home page*/
+#inpara::first-letter{
+    color:green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+/*header in all pages*/
+header{
+    
+    background-color: #E3242B;
+    font-size: x-large;
+    font-weight: bold;
+    width: 100%;
+
+    content: none;
+    padding:1em;
+    padding-left: 1em;
+    padding-bottom: 2em;
+    border-top: 0px;
+    
+}
+/*navigation in all pages*/
+nav{
+    padding-top:2em;
+    
+}
+.navigation>li{
+    display:inline;
+}
+.navigation>li>a{
+    color:white;
+
+    text-decoration: none; 
+}
+.fter>li{
+    display: inline;
+}
+
+h1,h2,h3{
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*anchor all pages*/
+a{
+    text-decoration: none;
+    transition: width 2s, background 1s;
+    color:blue;
+}
+a:visited{
+   
+    color:blueviolet;
+}
+
+a:hover{
+    background-color:yellow;
+}
+/*footer all pages*/
+footer{
+    background-color: white;
+    width: 100%;
+    font-size: smaller;
+}
+/*aside in apply page*/
+aside{
+    border: 1px;
+    background-color: greenyellow;
+    
+    float:right;
+    width:25%;
+
+}
+/*definition list in about*/
+dl dt{
+    float:left;
+    width: 20%;
+    padding: 0px;
+    margin:0px;
+}
+dl dd{
+    float:left;
+    width: 40%;
+    padding: 0px;
+    margin:0px;
+}
+/*table in about*/
+caption{
+    font-size: large;
+    font-weight: bold;
+    background-color: aqua;
+}
+table{
+    text-align: center;
+}
+table thead{
+    background-color: yellow;
+    font-weight: bold;
+}
+table tr td{
+    background-color: white;
+}
+/*caption in about*/
+figcaption{
+    text-align: center;
+}
+/*picture in about*/
+#mypic{
+    float: right;
+    margin:0;
+    padding: 0;
+}
